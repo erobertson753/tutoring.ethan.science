@@ -34,6 +34,20 @@
 				</nav>
 			</header>
 
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Subjects</a></li>
+							<li><a href="#two">Qualifications</a></li>
+							<li><a href="#three">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -43,241 +57,267 @@
 							<h1 class="major">Our Tutoring Services</h1>
 							<p>Our team of qualified educators offers comprehensive tutoring services across multiple subjects. Each tutor brings their own unique expertise and teaching style, ensuring that students receive the best possible instruction tailored to their needs.</p>
 							
-							<!-- SAT Section -->
-							<h2>SAT Preparation</h2>
-							<p>Comprehensive SAT preparation services from tutors who have achieved scores in the 99th percentile (1560 and 1550). Our program combines proven strategies with personalized attention to help students achieve their target scores.</p>
+							<!-- Subject Selector -->
+							<div class="subject-selector" style="margin: 2em 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em; max-width: 800px; margin-left: auto; margin-right: auto;">
+								<button class="button subject-button" data-subject="sat">SAT Preparation</button>
+								<button class="button subject-button" data-subject="latin">Latin & Classics</button>
+								<button class="button subject-button" data-subject="english">English & Essay Writing</button>
+								<button class="button subject-button" data-subject="history">History</button>
+								<button class="button subject-button" data-subject="math">Mathematics</button>
+								<button class="button subject-button" data-subject="french">French Language</button>
+							</div>
 
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Both tutors achieved 99th percentile scores (1560 and 1550)</li>
-								<li>Experience in both Math and Evidence-Based Reading & Writing sections</li>
-								<li>Understanding of current SAT format and scoring</li>
-							</ul>
+							<!-- Content Sections -->
+							<div id="content-sections">
+								<!-- SAT Section -->
+								<section id="sat-section" class="subject-section" style="display: none;">
+									<h2>SAT Preparation</h2>
+									<p>Comprehensive SAT preparation services from tutors who have achieved scores in the 99th percentile (1560 and 1550). Our program combines proven strategies with personalized attention to help students achieve their target scores.</p>
 
-							<h3>Program Features:</h3>
-							<ul>
-								<li>Comprehensive coverage of all SAT sections:
+									<h3>Qualifications:</h3>
 									<ul>
-										<li>Math (Calculator and No-Calculator sections)</li>
-										<li>Evidence-Based Reading</li>
-										<li>Writing and Language</li>
+										<li>Both tutors achieved 99th percentile scores (1560 and 1550)</li>
+										<li>Experience in both Math and Evidence-Based Reading & Writing sections</li>
+										<li>Understanding of current SAT format and scoring</li>
 									</ul>
-								</li>
-								<li>Personalized study plans based on diagnostic testing</li>
-								<li>Practice test administration and analysis</li>
-								<li>Strategy development for each section</li>
-								<li>Time management techniques</li>
-								<li>Regular progress tracking</li>
-								<li>Adaptable to various learning styles and schedules</li>
-							</ul>
 
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>Diagnostic assessment to identify strengths and areas for improvement</li>
-								<li>Customized study plans based on student's goals and timeline</li>
-								<li>Regular practice tests to track progress</li>
-								<li>Detailed analysis of practice test results</li>
-								<li>Focus on both content knowledge and test-taking strategies</li>
-								<li>Stress management and test-day preparation</li>
-							</ul>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>Comprehensive coverage of all SAT sections:
+											<ul>
+												<li>Math (Calculator and No-Calculator sections)</li>
+												<li>Evidence-Based Reading</li>
+												<li>Writing and Language</li>
+											</ul>
+										</li>
+										<li>Personalized study plans based on diagnostic testing</li>
+										<li>Practice test administration and analysis</li>
+										<li>Strategy development for each section</li>
+										<li>Time management techniques</li>
+										<li>Regular progress tracking</li>
+										<li>Adaptable to various learning styles and schedules</li>
+									</ul>
 
-							<hr />
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>Diagnostic assessment to identify strengths and areas for improvement</li>
+										<li>Customized study plans based on student's goals and timeline</li>
+										<li>Regular practice tests to track progress</li>
+										<li>Detailed analysis of practice test results</li>
+										<li>Focus on both content knowledge and test-taking strategies</li>
+										<li>Stress management and test-day preparation</li>
+									</ul>
+								</section>
 
-							<!-- Latin/Classics Section -->
-							<h2>Latin & Classics Tutoring</h2>
-							<p>Expert Latin and Classics instruction from Jocelyn Robertson, an Oxford graduate and current Latin teacher. With a specialized degree in Classics from Brasenose College, University of Oxford, and current teaching position at Dominion Christian Academy, Jocelyn offers comprehensive tutoring in Latin language, literature, and classical studies.</p>
+								<!-- Latin Section -->
+								<section id="latin-section" class="subject-section" style="display: none;">
+									<h2>Latin & Classics Tutoring</h2>
+									<p>Expert Latin and Classics instruction from Jocelyn Robertson, an Oxford graduate and current Latin teacher. With a specialized degree in Classics from Brasenose College, University of Oxford, and current teaching position at Dominion Christian Academy, Jocelyn offers comprehensive tutoring in Latin language, literature, and classical studies.</p>
 
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Graduate of Brasenose College, University of Oxford (Classics)</li>
-								<li>Current Latin teacher at Dominion Christian Academy</li>
-								<li>Specialized expertise in classical literature and history</li>
-								<li>Experience teaching students of all levels</li>
-							</ul>
+									<h3>Qualifications:</h3>
+									<ul>
+										<li>Graduate of Brasenose College, University of Oxford (Classics)</li>
+										<li>Current Latin teacher at Dominion Christian Academy</li>
+										<li>Specialized expertise in classical literature and history</li>
+										<li>Experience teaching students of all levels</li>
+									</ul>
 
-							<h3>Program Features:</h3>
-							<ul>
-								<li>Latin language instruction (all levels)</li>
-								<li>Classical literature and translation</li>
-								<li>Ancient history and culture</li>
-								<li>Grammar and syntax mastery</li>
-								<li>Vocabulary development</li>
-								<li>Reading comprehension</li>
-								<li>Test preparation (if applicable)</li>
-								<li>Cultural context and understanding</li>
-							</ul>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>Latin language instruction (all levels)</li>
+										<li>Classical literature and translation</li>
+										<li>Ancient history and culture</li>
+										<li>Grammar and syntax mastery</li>
+										<li>Vocabulary development</li>
+										<li>Reading comprehension</li>
+										<li>Test preparation (if applicable)</li>
+										<li>Cultural context and understanding</li>
+									</ul>
 
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>Structured language learning methodology</li>
-								<li>Integration of grammar and reading</li>
-								<li>Cultural and historical context</li>
-								<li>Regular progress assessment</li>
-								<li>Customized lesson plans</li>
-								<li>Interactive learning techniques</li>
-								<li>Focus on both classical and ecclesiastical Latin</li>
-								<li>Adaptable to various curriculum requirements</li>
-							</ul>
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>Structured language learning methodology</li>
+										<li>Integration of grammar and reading</li>
+										<li>Cultural and historical context</li>
+										<li>Regular progress assessment</li>
+										<li>Customized lesson plans</li>
+										<li>Interactive learning techniques</li>
+										<li>Focus on both classical and ecclesiastical Latin</li>
+										<li>Adaptable to various curriculum requirements</li>
+									</ul>
+								</section>
 
-							<hr />
+								<!-- English Section -->
+								<section id="english-section" class="subject-section" style="display: none;">
+									<h2>English & Essay Writing Tutoring</h2>
+									<p>Expert English and essay writing instruction from Jocelyn Robertson, an Oxford graduate with extensive experience in academic writing and literary analysis. Trained in Oxford's renowned tutorial system, which emphasizes critical thinking, argument development, and precise writing, Jocelyn offers comprehensive tutoring in English literature, essay writing, and literary analysis.</p>
 
-							<!-- English Section -->
-							<h2>English & Essay Writing Tutoring</h2>
-							<p>Expert English and essay writing instruction from Jocelyn Robertson, an Oxford graduate with extensive experience in academic writing and literary analysis. Trained in Oxford's renowned tutorial system, which emphasizes critical thinking, argument development, and precise writing, Jocelyn offers comprehensive tutoring in English literature, essay writing, and literary analysis.</p>
+									<h3>Qualifications:</h3>
+									<ul>
+										<li>Graduate of Brasenose College, University of Oxford (Classics)</li>
+										<li>Extensive experience in academic writing through Oxford's tutorial system</li>
+										<li>Current teaching experience at Dominion Christian Academy</li>
+										<li>Expertise in literary analysis and critical thinking</li>
+									</ul>
 
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Graduate of Brasenose College, University of Oxford (Classics)</li>
-								<li>Extensive experience in academic writing through Oxford's tutorial system</li>
-								<li>Current teaching experience at Dominion Christian Academy</li>
-								<li>Expertise in literary analysis and critical thinking</li>
-							</ul>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>Essay writing and structure</li>
+										<li>Literary analysis and interpretation</li>
+										<li>Critical thinking development</li>
+										<li>Argument construction and development</li>
+										<li>Close reading techniques</li>
+										<li>Grammar and style improvement</li>
+										<li>Research paper writing</li>
+										<li>College application essays</li>
+									</ul>
 
-							<h3>Program Features:</h3>
-							<ul>
-								<li>Essay writing and structure</li>
-								<li>Literary analysis and interpretation</li>
-								<li>Critical thinking development</li>
-								<li>Argument construction and development</li>
-								<li>Close reading techniques</li>
-								<li>Grammar and style improvement</li>
-								<li>Research paper writing</li>
-								<li>College application essays</li>
-							</ul>
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>One-on-one feedback on writing</li>
+										<li>Step-by-step essay development</li>
+										<li>Close reading and analysis practice</li>
+										<li>Customized writing exercises</li>
+										<li>Regular progress assessment</li>
+										<li>Focus on both content and style</li>
+										<li>Adaptable to various curriculum requirements</li>
+										<li>Integration of literary and historical context</li>
+									</ul>
+								</section>
 
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>One-on-one feedback on writing</li>
-								<li>Step-by-step essay development</li>
-								<li>Close reading and analysis practice</li>
-								<li>Customized writing exercises</li>
-								<li>Regular progress assessment</li>
-								<li>Focus on both content and style</li>
-								<li>Adaptable to various curriculum requirements</li>
-								<li>Integration of literary and historical context</li>
-							</ul>
+								<!-- History Section -->
+								<section id="history-section" class="subject-section" style="display: none;">
+									<h2>History Tutoring</h2>
+									<p>Comprehensive history tutoring with expertise in both AP U.S. History and Roman history. Specializing in historical analysis, essay writing, and classical studies, with a focus on developing strong analytical skills and effective writing techniques.</p>
 
-							<hr />
+									<h3>Qualifications:</h3>
+									<ul>
+										<li>Perfect score of 5 on AP U.S. History (APUSH)</li>
+										<li>Three-time captain of the Virginia Certamen team at National Junior Classical League conventions</li>
+										<li>Specialized expertise in Roman history and classical studies</li>
+										<li>Score of 4 on AP Latin</li>
+									</ul>
 
-							<!-- History Section -->
-							<h2>History Tutoring</h2>
-							<p>Comprehensive history tutoring with expertise in both AP U.S. History and Roman history. Specializing in historical analysis, essay writing, and classical studies, with a focus on developing strong analytical skills and effective writing techniques.</p>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>AP U.S. History (APUSH) preparation</li>
+										<li>Roman history and classical studies</li>
+										<li>Historical analysis and critical thinking</li>
+										<li>Document-based question (DBQ) strategies</li>
+										<li>Long essay question (LEQ) techniques</li>
+										<li>Multiple choice test strategies</li>
+										<li>Historical context and periodization</li>
+										<li>Primary and secondary source analysis</li>
+									</ul>
 
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Perfect score of 5 on AP U.S. History (APUSH)</li>
-								<li>Three-time captain of the Virginia Certamen team at National Junior Classical League conventions</li>
-								<li>Specialized expertise in Roman history and classical studies</li>
-								<li>Score of 4 on AP Latin</li>
-							</ul>
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>Focus on historical thinking skills</li>
+										<li>Practice with past AP exam questions</li>
+										<li>Development of thesis statements and arguments</li>
+										<li>Source analysis and interpretation</li>
+										<li>Timeline and periodization mastery</li>
+										<li>Regular practice tests and feedback</li>
+										<li>Customized study plans based on student needs</li>
+										<li>Integration of classical and modern historical perspectives</li>
+									</ul>
+								</section>
 
-							<h3>Program Features:</h3>
-							<ul>
-								<li>AP U.S. History (APUSH) preparation</li>
-								<li>Roman history and classical studies</li>
-								<li>Historical analysis and critical thinking</li>
-								<li>Document-based question (DBQ) strategies</li>
-								<li>Long essay question (LEQ) techniques</li>
-								<li>Multiple choice test strategies</li>
-								<li>Historical context and periodization</li>
-								<li>Primary and secondary source analysis</li>
-							</ul>
+								<!-- Mathematics Section -->
+								<section id="math-section" class="subject-section" style="display: none;">
+									<h2>Mathematics Tutoring</h2>
+									<p>Comprehensive mathematics tutoring for students at all levels, from basic arithmetic to advanced calculus. My approach combines traditional mathematical concepts with practical applications to make learning engaging and effective.</p>
+									
+									<h3>Qualifications:</h3>
+									<ul>
+										<li>Current university student with strong mathematical background</li>
+										<li>Experience teaching students of all levels</li>
+										<li>Adaptable to various curriculum requirements</li>
+									</ul>
 
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>Focus on historical thinking skills</li>
-								<li>Practice with past AP exam questions</li>
-								<li>Development of thesis statements and arguments</li>
-								<li>Source analysis and interpretation</li>
-								<li>Timeline and periodization mastery</li>
-								<li>Regular practice tests and feedback</li>
-								<li>Customized study plans based on student needs</li>
-								<li>Integration of classical and modern historical perspectives</li>
-							</ul>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>Basic Arithmetic and Pre-Algebra</li>
+										<li>Algebra I and II</li>
+										<li>Geometry</li>
+										<li>Trigonometry</li>
+										<li>Pre-Calculus</li>
+										<li>Calculus</li>
+										<li>Statistics and Probability</li>
+									</ul>
 
-							<hr />
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>Customized lesson plans based on student's needs and curriculum</li>
+										<li>Interactive problem-solving sessions</li>
+										<li>Real-world applications of mathematical concepts</li>
+										<li>Regular progress assessments</li>
+										<li>Homework and test preparation support</li>
+										<li>Adaptable to various learning styles and educational backgrounds</li>
+									</ul>
+								</section>
 
-							<!-- Mathematics Section -->
-							<h2>Mathematics Tutoring</h2>
-							<p>Comprehensive mathematics tutoring for students at all levels, from basic arithmetic to advanced calculus. My approach combines traditional mathematical concepts with practical applications to make learning engaging and effective.</p>
-							
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Current university student with strong mathematical background</li>
-								<li>Experience teaching students of all levels</li>
-								<li>Adaptable to various curriculum requirements</li>
-							</ul>
+								<!-- French Section -->
+								<section id="french-section" class="subject-section" style="display: none;">
+									<h2>French Language Tutoring</h2>
+									<p>Expert French language instruction from a certified DELF B2 speaker. Experience in teaching both conversational and academic French, with a focus on practical communication skills and cultural understanding.</p>
 
-							<h3>Program Features:</h3>
-							<ul>
-								<li>Basic Arithmetic and Pre-Algebra</li>
-								<li>Algebra I and II</li>
-								<li>Geometry</li>
-								<li>Trigonometry</li>
-								<li>Pre-Calculus</li>
-								<li>Calculus</li>
-								<li>Statistics and Probability</li>
-							</ul>
+									<h3>Qualifications:</h3>
+									<ul>
+										<li>Certified DELF B2 speaker</li>
+										<li>Experience in both conversational and academic French</li>
+										<li>Adaptable to various curriculum requirements</li>
+									</ul>
 
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>Customized lesson plans based on student's needs and curriculum</li>
-								<li>Interactive problem-solving sessions</li>
-								<li>Real-world applications of mathematical concepts</li>
-								<li>Regular progress assessments</li>
-								<li>Homework and test preparation support</li>
-								<li>Adaptable to various learning styles and educational backgrounds</li>
-							</ul>
+									<h3>Program Features:</h3>
+									<ul>
+										<li>Conversational French practice</li>
+										<li>Grammar and vocabulary development</li>
+										<li>Reading and writing skills</li>
+										<li>Cultural context and understanding</li>
+										<li>Test preparation (if applicable)</li>
+										<li>Adaptable to various curriculum requirements</li>
+									</ul>
 
-							<hr />
-
-							<!-- French Section -->
-							<h2>French Language Tutoring</h2>
-							<p>Expert French language instruction from a certified DELF B2 speaker. Experience in teaching both conversational and academic French, with a focus on practical communication skills and cultural understanding.</p>
-
-							<h3>Qualifications:</h3>
-							<ul>
-								<li>Certified DELF B2 speaker</li>
-								<li>Experience in both conversational and academic French</li>
-								<li>Adaptable to various curriculum requirements</li>
-							</ul>
-
-							<h3>Program Features:</h3>
-							<ul>
-								<li>Conversational French practice</li>
-								<li>Grammar and vocabulary development</li>
-								<li>Reading and writing skills</li>
-								<li>Cultural context and understanding</li>
-								<li>Test preparation (if applicable)</li>
-								<li>Adaptable to various curriculum requirements</li>
-							</ul>
-
-							<h3>Teaching Approach:</h3>
-							<ul>
-								<li>Immersion-based learning techniques</li>
-								<li>Interactive conversation practice</li>
-								<li>Cultural integration</li>
-								<li>Progress tracking and assessment</li>
-								<li>Flexible scheduling options</li>
-								<li>Customized to student's learning style and goals</li>
-							</ul>
-
-							<hr />
+									<h3>Teaching Approach:</h3>
+									<ul>
+										<li>Immersion-based learning techniques</li>
+										<li>Interactive conversation practice</li>
+										<li>Cultural integration</li>
+										<li>Progress tracking and assessment</li>
+										<li>Flexible scheduling options</li>
+										<li>Customized to student's learning style and goals</li>
+									</ul>
+								</section>
+							</div>
 
 							<!-- Session Information -->
-							<h2>Session Information</h2>
-							<p>I offer both in-person and online tutoring sessions, with flexible scheduling to accommodate various student schedules. Sessions are typically 60 minutes long, but can be adjusted based on student needs.</p>
+							<div id="session-info" style="margin-top: 2em; padding-top: 2em; border-top: 1px solid #2a2f4a;">
+								<h2>Session Information</h2>
+								<p>Our team offers both in-person and online tutoring sessions, with flexible scheduling to accommodate various student schedules. Sessions are typically 60 minutes long, but can be adjusted based on student needs.</p>
 
-							<h3>Location:</h3>
-							<p>Winchester, VA and surrounding areas</p>
+								<h3>Our Team:</h3>
+								<ul>
+									<li><strong>Ethan Robertson</strong><br />
+									Mathematics, SAT, French, History</li>
+									<li><strong>Jocelyn Robertson</strong><br />
+									Latin, Classics, English & Essay Writing</li>
+								</ul>
 
-							<h3>Contact:</h3>
-							<p>To schedule a session or learn more about my services, please contact me at:</p>
-							<ul>
-								<li>Email: <a href="mailto:tutoring@ethan.science">tutoring@ethan.science</a></li>
-								<li>Phone: (757) 741-5072</li>
-							</ul>
+								<h3>Service Areas:</h3>
+								<ul>
+									<li>Winchester, VA</li>
+									<li>Northern Virginia</li>
+									<li>Online sessions available worldwide</li>
+								</ul>
 
+								<h3>Contact:</h3>
+								<p>To schedule a session or learn more about our services, please contact us at:</p>
+								<ul>
+									<li>Email: <a href="mailto:tutoring@ethan.science">tutoring@ethan.science</a></li>
+									<li>Phone: (757) 741-5072</li>
+								</ul>
+							</div>
 						</div>
 					</section>
 
@@ -301,6 +341,31 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/analytics.js"></script>
+			<script>
+				// Subject selector functionality
+				document.querySelectorAll('.subject-button').forEach(button => {
+					button.addEventListener('click', function() {
+						// Remove active class from all buttons
+						document.querySelectorAll('.subject-button').forEach(btn => {
+							btn.classList.remove('primary');
+						});
+						
+						// Add active class to clicked button
+						this.classList.add('primary');
+
+						// Hide all sections
+						document.querySelectorAll('.subject-section').forEach(section => {
+							section.style.display = 'none';
+						});
+
+						// Show selected section
+						const selectedSubject = this.getAttribute('data-subject');
+						if (selectedSubject) {
+							document.getElementById(selectedSubject + '-section').style.display = 'block';
+						}
+					});
+				});
+			</script>
 
 	</body>
 </html>
