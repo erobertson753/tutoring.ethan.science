@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pricing - Robertson Academic Services</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8JJXYH04ZN"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-8JJXYH04ZN');
+		</script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.pricing-calculator {
+				background: #2a2f4a;
+				padding: 2em;
+				border-radius: 8px;
+				margin: 2em 0;
+			}
+			.pricing-calculator select,
+			.pricing-calculator input {
+				width: 100%;
+				margin-bottom: 1em;
+			}
+			.pricing-result {
+				background: #1a1f3a;
+				padding: 1em;
+				border-radius: 4px;
+				margin-top: 1em;
+				text-align: center;
+			}
+			.pricing-table {
+				width: 100%;
+				margin: 2em 0;
+			}
+			.pricing-table th,
+			.pricing-table td {
+				padding: 1em;
+				text-align: left;
+				border-bottom: 1px solid #2a2f4a;
+			}
+			.pricing-table th {
+				background: #2a2f4a;
+			}
+			.discount-info {
+				background: #2a4a2a;
+				padding: 1em;
+				border-radius: 4px;
+				margin: 1em 0;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Robertson Academic Services</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Services</a></li>
+						<li><a href="pricing.html" class="active">Pricing</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Pricing & Packages</h1>
+							
+							<!-- Pricing Calculator -->
+							<div class="pricing-calculator">
+								<h2>Calculate Your Rate</h2>
+								<form id="pricing-calculator-form">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<label for="subject">Subject</label>
+											<select name="subject" id="subject" required>
+												<option value="">Select Subject</option>
+												<option value="latin">Latin & Classics</option>
+												<option value="english">English & Essay Writing</option>
+												<option value="sat">SAT Preparation</option>
+												<option value="math">Mathematics</option>
+												<option value="french">French</option>
+												<option value="history">History</option>
+											</select>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<label for="session-type">Session Type</label>
+											<select name="session-type" id="session-type" required>
+												<option value="individual">Individual Session</option>
+												<option value="group2">Group (2 students)</option>
+												<option value="group3">Group (3-4 students)</option>
+											</select>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<label for="format">Format</label>
+											<select name="format" id="format" required>
+												<option value="in-person">In-Person</option>
+												<option value="online">Online</option>
+											</select>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<label for="package">Package</label>
+											<select name="package" id="package" required>
+												<option value="single">Single Session</option>
+												<option value="package10">10-Hour Package</option>
+												<option value="package20">20-Hour Package</option>
+												<option value="monthly">Monthly Commitment</option>
+											</select>
+										</div>
+									</div>
+									<div class="pricing-result" id="pricing-result" style="display: none;">
+										<h3>Estimated Rate</h3>
+										<p id="calculated-rate"></p>
+										<p id="discount-info"></p>
+									</div>
+								</form>
+							</div>
+
+							<!-- Base Rates Table -->
+							<h2>Base Rates</h2>
+							<div class="table-wrapper">
+								<table class="pricing-table">
+									<thead>
+										<tr>
+											<th>Subject</th>
+											<th>Base Rate/Hour</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Latin & Classics</td>
+											<td>$90</td>
+										</tr>
+										<tr>
+											<td>English & Essay Writing</td>
+											<td>$80</td>
+										</tr>
+										<tr>
+											<td>SAT Preparation</td>
+											<td>$75</td>
+										</tr>
+										<tr>
+											<td>Mathematics</td>
+											<td>$70</td>
+										</tr>
+										<tr>
+											<td>French</td>
+											<td>$70</td>
+										</tr>
+										<tr>
+											<td>History</td>
+											<td>$70</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<!-- Discounts -->
+							<h2>Available Discounts</h2>
+							<div class="discount-info">
+								<h3>Session Format</h3>
+								<ul>
+									<li><strong>Online Sessions:</strong> 10% off base rate</li>
+									<li><strong>In-Person Sessions:</strong> Base rate applies</li>
+									<li><strong>Travel Fee:</strong> $5-10 for locations beyond 15 minutes</li>
+								</ul>
+							</div>
+							<div class="discount-info">
+								<h3>Package Options</h3>
+								<ul>
+									<li><strong>10-Hour Package:</strong> 5% off total</li>
+									<li><strong>20-Hour Package:</strong> 10% off total</li>
+									<li><strong>Monthly Commitment:</strong> 15% off total</li>
+								</ul>
+							</div>
+							<div class="discount-info">
+								<h3>Group Sessions</h3>
+								<ul>
+									<li><strong>2 Students:</strong> 20% off per student</li>
+									<li><strong>3-4 Students:</strong> 30% off per student</li>
+								</ul>
+							</div>
+
+							<!-- Example Calculations -->
+							<h2>Example Calculations</h2>
+							<div class="discount-info">
+								<h3>Individual Online Session</h3>
+								<p>Base Rate: $90 (Latin)<br />
+								Online Discount: -$9 (10%)<br />
+								<strong>Final Rate: $81/hour</strong></p>
+							</div>
+							<div class="discount-info">
+								<h3>Group Package (2 Students)</h3>
+								<p>Base Rate: $70 (Math)<br />
+								Group Discount: -$14 (20%)<br />
+								Package Discount: -$2.80 (5%)<br />
+								<strong>Final Rate: $53.20/hour per student</strong></p>
+							</div>
+
+							<!-- Additional Information -->
+							<h2>Additional Information</h2>
+							<ul>
+								<li>Free 15-20 minute initial consultation</li>
+								<li>Flexible scheduling available</li>
+								<li>Payment accepted via cash, check, or electronic transfer</li>
+								<li>Discounts can be combined (e.g., online group sessions)</li>
+							</ul>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Ethan Robertson. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Base rates for each subject
+				const baseRates = {
+					latin: 90,
+					english: 80,
+					sat: 75,
+					math: 70,
+					french: 70,
+					history: 70
+				};
+
+				// Discount percentages
+				const discounts = {
+					package10: 0.05,
+					package20: 0.10,
+					monthly: 0.15,
+					group2: 0.20,
+					group3: 0.30,
+					online: 0.10
+				};
+
+				// Calculate the rate based on selections
+				function calculateRate() {
+					const subject = document.getElementById('subject').value;
+					const sessionType = document.getElementById('session-type').value;
+					const format = document.getElementById('format').value;
+					const package = document.getElementById('package').value;
+
+					if (!subject) return;
+
+					let rate = baseRates[subject];
+					let discountInfo = [];
+
+					// Apply package discount
+					if (package !== 'single') {
+						rate *= (1 - discounts[package]);
+						discountInfo.push(`${(discounts[package] * 100)}% package discount`);
+					}
+
+					// Apply group discount
+					if (sessionType !== 'individual') {
+						rate *= (1 - discounts[sessionType]);
+						discountInfo.push(`${(discounts[sessionType] * 100)}% group discount`);
+					}
+
+					// Apply online discount
+					if (format === 'online') {
+						rate *= (1 - discounts.online);
+						discountInfo.push(`${(discounts.online * 100)}% online discount`);
+					}
+
+					// Display the result
+					const resultDiv = document.getElementById('pricing-result');
+					const rateDiv = document.getElementById('calculated-rate');
+					const discountDiv = document.getElementById('discount-info');
+
+					rateDiv.textContent = `$${rate.toFixed(2)} per hour`;
+					discountDiv.textContent = discountInfo.length > 0 ? 
+						`Applied discounts: ${discountInfo.join(', ')}` : 
+						'No discounts applied';
+					resultDiv.style.display = 'block';
+				}
+
+				// Add event listeners to form elements
+				document.getElementById('subject').addEventListener('change', calculateRate);
+				document.getElementById('session-type').addEventListener('change', calculateRate);
+				document.getElementById('format').addEventListener('change', calculateRate);
+				document.getElementById('package').addEventListener('change', calculateRate);
+			</script>
+
+	</body>
+</html> 
